@@ -19,7 +19,6 @@ __published:	// IDE-managed Components
 	TButton *Button1;
 	TButton *Button2;
 	TButton *Button3;
-	TButton *Button4;
 	TColorBox *ColorBox1;
 	TButton *Button5;
 	TEdit *Edit1;
@@ -34,19 +33,20 @@ __published:	// IDE-managed Components
 	TButton *Button6;
 	TEdit *Edit5;
 	TButton *Button7;
-	TColorDialog *ColorDialog1;
 	TButton *Button8;
 	TEdit *Edit6;
 	TButton *Button9;
+	TColorDialog *ColorDialog1;
+	TLabel *Label6;
 	void __fastcall Button1Click(TObject *Sender);
 	void __fastcall Button2Click(TObject *Sender);
 	void __fastcall Button3Click(TObject *Sender);
-	void __fastcall Button4Click(TObject *Sender);
 	void __fastcall Button5Click(TObject *Sender);
 	void __fastcall Button6Click(TObject *Sender);
 	void __fastcall Button7Click(TObject *Sender);
 	void __fastcall Button8Click(TObject *Sender);
 	void __fastcall Button9Click(TObject *Sender);
+	void __fastcall ColorBox1Change(TObject *Sender);
 private:	// User declarations
 public:		// User declarations
 	__fastcall TForm1(TComponent* Owner);
